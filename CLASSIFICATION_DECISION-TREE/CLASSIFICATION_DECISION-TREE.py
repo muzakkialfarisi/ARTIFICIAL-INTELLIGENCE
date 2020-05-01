@@ -1,6 +1,7 @@
 import csv
 import random
 
+# inisialisasi
 n = 10
 lenchromosom = 15
 arrpopulasi = [[]for i in range(n)]
