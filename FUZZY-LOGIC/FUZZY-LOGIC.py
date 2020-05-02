@@ -1,7 +1,9 @@
 import csv
 
+# main array
 arrfile = []
 
+# for read file
 def readfile():
     csvid, csvfol, csveng= [], [], []
     csvini = []
