@@ -290,5 +290,6 @@ def main():
     print("Crossover  : ",crosso)
     print(mutasi())
 
+# this is main program
 if __name__== "__main__":
   main()
