@@ -20,6 +20,7 @@ def readfile():
     return csvini
 
 def fuzzifikasi(a):
+# limit definition
     temp, arrf, arre, arrfuzi = [[]for i in range(3)], [[]for i in range(3)], [[]for i in range(3)], []
     fmin1, fmin2, fmid1, fmid2, fmid3, fmid4, fmax1, fmax2 = 15000, 39999, 15001, 40000, 50000, 69999, 50001, 70000
     emin1, emin2, emid1, emid2, emid3, emid4, emax1, emax2 = 1, 2.9, 1.1, 3, 5, 5.9, 5.1, 6
